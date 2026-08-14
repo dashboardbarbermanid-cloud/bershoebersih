@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+
+    <!-- =========================
+         BASIC
+    ========================== -->
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Bershoe Bersih | Custom Shoe Care & Exclusive Franchise</title>
+
+    <meta name="description"
+          content="Bershoe Bersih adalah layanan custom shoe care dan peluang franchise eksklusif untuk bisnis perawatan sepatu. Temukan layanan, produk, partnership, dan peluang franchise SOLSKA.">
+
+    <meta name="keywords"
+          content="Bershoe Bersih, BershoeBersih, shoe care, custom shoe care, cuci sepatu, perawatan sepatu, custom sepatu, shoe cleaning, shoe care Indonesia, franchise shoe care, franchise SOLSKA, bisnis shoe care">
+
+    <meta name="author"
+          content="Bershoe Bersih">
+
+    <meta name="publisher"
+          content="Bershoe Bersih">
+
+    <meta name="language"
+          content="id">
+
+    <meta name="robots"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <meta name="googlebot"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <meta name="bingbot"
+          content="index, follow">
+
+    <!-- =========================
+         CANONICAL
+    ========================== -->
+    <link rel="canonical"
+          href="https://solska.id/">
+
+    <!-- =========================
+         FAVICON
+    ========================== -->
+    <link rel="icon"
+          type="image/png"
+          href="favicon.png">
+
+    <link rel="shortcut icon"
+          type="image/png"
+          href="favicon.png">
+
+    <link rel="apple-touch-icon"
+          href="favicon.png">
+
+    <!-- =========================
+         THEME / MOBILE
+    ========================== -->
+    <meta name="theme-color"
+          content="#0A0A0A">
+
+    <meta name="color-scheme"
+          content="dark light">
+
+    <meta name="mobile-web-app-capable"
+          content="yes">
+
+    <meta name="apple-mobile-web-app-capable"
+          content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent">
+
+    <meta name="apple-mobile-web-app-title"
+          content="Bershoe Bersih">
+
+    <!-- =========================
+         OPEN GRAPH
+    ========================== -->
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:site_name"
+          content="Bershoe Bersih">
+
+    <meta property="og:title"
+          content="Bershoe Bersih | Custom Shoe Care & Exclusive Franchise">
+
+    <meta property="og:description"
+          content="Custom shoe care dan peluang franchise eksklusif SOLSKA. Rawat, custom, dan kembangkan bisnis shoe care bersama Bershoe Bersih.">
+
+    <meta property="og:url"
+          content="https://solska.id/">
+
+    <meta property="og:locale"
+          content="id_ID">
+
+    <meta property="og:image"
+          content="https://solska.id/og-image.jpg">
+
+    <meta property="og:image:secure_url"
+          content="https://solska.id/og-image.jpg">
+
+    <meta property="og:image:type"
+          content="image/jpeg">
+
+    <meta property="og:image:width"
+          content="1200">
+
+    <meta property="og:image:height"
+          content="630">
+
+    <meta property="og:image:alt"
+          content="Bershoe Bersih Custom Shoe Care">
+
+    <!-- =========================
+         TWITTER / X
+    ========================== -->
+    <meta name="twitter:card"
+          content="summary_large_image">
+
+    <meta name="twitter:title"
+          content="Bershoe Bersih | Custom Shoe Care & Exclusive Franchise">
+
+    <meta name="twitter:description"
+          content="Custom shoe care dan peluang franchise eksklusif Bershoe Bersih.">
+
+    <meta name="twitter:image"
+          content="https://solska.id/og-image.jpg">
+
+    <meta name="twitter:image:alt"
+          content="Bershoe Bersih Custom Shoe Care">
+
+    <!-- =========================
+         REFERRER
+    ========================== -->
+    <meta name="referrer"
+          content="strict-origin-when-cross-origin">
+
+    <!-- =========================
+         PRECONNECT
+    ========================== -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link rel="preconnect"
+          href="https://cdnjs.cloudflare.com">
+
+    <link rel="preconnect"
+          href="https://cdn.tailwindcss.com">
+
+    <!-- =========================
+         TAILWIND CSS CDN
+    ========================== -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- =========================
+         FONT AWESOME CDN
+    ========================== -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- =========================
+         GOOGLE FONTS: INTER
+    ========================== -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap"
+          rel="stylesheet">
+
+    <!-- =========================
+         FIREBASE SDK COMPAT
+    ========================== -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-auth-compat.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore-compat.js"></script>
+
+    <!-- =========================
+         TAILWIND CONFIG
+    ========================== -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        solska: {
+                            yellow: '#FFEA00',
+                            yellowHover: '#D4C400',
+                            dark: '#0A0A0A',
+                            card: '#141414',
+                            border: '#262626'
+                        }
+                    },
+
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+        }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #000; }
+        ::-webkit-scrollbar-thumb { background: #FFEA00; border-radius: 4px; }
+        
+        /* Dynamic Island Floating Style */
+        .dynamic-island { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
+        
+        /* Pulse Animation for Live Status */
+        .pulse-yellow {
+            box-shadow: 0 0 0 0 rgba(255, 234, 0, 0.7);
+            animation: pulse-yellow-anim 2s infinite;
+        }
+        @keyframes pulse-yellow-anim {
+            0% { box-shadow: 0 0 0 0 rgba(255, 234, 0, 0.7); }
+            70% { box-shadow: 0 0 0 12px rgba(255, 234, 0, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 234, 0, 0); }
+        }
+
+        /* Image comparison slider helper */
+        .before-after-container { position: relative; overflow: hidden; }
+
+        /* --- Lazy Load Blur Effect --- */
+        .lazy-img {
+            filter: blur(15px);
+            transition: filter 0.6s ease-in-out;
+            background-color: #141414;
+        }
+        .lazy-img.loaded {
+            filter: blur(0);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-solska-yellow selection:text-black">
+
+    <!-- DYNAMIC ISLAND FLOATING HEADER -->
+    <header class="fixed top-5 left-1/2 -translate-x-1/2 z-40 w-[92%] max-w-5xl">
+        <div class="dynamic-island bg-black/85 backdrop-blur-xl border border-solska-border rounded-full px-5 py-3 flex items-center justify-between shadow-2xl shadow-yellow-500/5">
+            <!-- Brand Logo -->
+            <a href="javascript:void(0)" onclick="navigateTo('view-home')" class="flex items-center gap-2 group">
+                <div class="w-8 h-8 bg-solska-yellow rounded-full flex items-center justify-center text-black font-black text-sm group-hover:scale-110 transition-transform">
+                    B
+                </div>
+                <span class="font-black text-xl tracking-tighter text-white uppercase">Bershoe Bersih<span class="text-solska-yellow">.</span></span>
+            </a>
+
+            <!-- Desktop Quick Nav Links -->
+            <nav class="hidden md:flex items-center gap-6 text-xs font-bold uppercase tracking-wider text-gray-300">
+                <a href="javascript:void(0)" onclick="navigateTo('view-home')" class="hover:text-solska-yellow transition-colors">Beranda</a>
+                <a href="javascript:void(0)" onclick="navigateTo('view-order')" class="text-solska-yellow hover:text-white transition-colors"><i class="fa-solid fa-bolt mr-1"></i> Reservasi</a>
+                <a href="javascript:void(0)" onclick="scrollToSection('section-lacak')" class="hover:text-solska-yellow transition-colors">Lacak Pesanan</a>
+                <a href="javascript:void(0)" onclick="scrollToSection('section-pembuktian')" class="hover:text-solska-yellow transition-colors">Hasil Kerja</a>
+                <a href="javascript:void(0)" onclick="navigateTo('view-franchise-detail')" class="hover:text-solska-yellow transition-colors">Franchise</a>
+            </nav>
+
+            <!-- Actions & Hamburger Button -->
+            <div class="flex items-center gap-3">
+                <button onclick="scrollToSection('section-lacak')" class="hidden sm:flex items-center gap-2 bg-solska-card text-white border border-solska-border font-extrabold text-xs uppercase px-4 py-2 rounded-full hover:border-solska-yellow hover:text-solska-yellow transition-all transform hover:scale-105">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>Track ID</span>
+                </button>
+                <button onclick="toggleSidebar()" aria-label="Open Sidebar Menu" class="w-10 h-10 bg-solska-yellow border border-solska-yellow rounded-full flex items-center justify-center text-black hover:bg-white hover:border-white transition-all">
+                    <i class="fa-solid fa-bars text-lg"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- SIDEBAR OVERLAY & DRAWER -->
+    <div id="sidebar-backdrop" onclick="toggleSidebar()" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 opacity-0 pointer-events-none transition-opacity duration-300"></div>
+    <aside id="sidebar-drawer" class="fixed top-0 right-0 w-full max-w-md h-full bg-solska-dark border-l border-solska-border z-50 translate-x-full transition-transform duration-300 ease-in-out p-8 flex flex-col justify-between overflow-y-auto">
+        <div>
+            <div class="flex items-center justify-between pb-6 border-b border-solska-border">
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-solska-yellow rounded-full flex items-center justify-center text-black font-black text-xs">
+                        B
+                    </div>
+                    <span class="font-black text-xl text-white uppercase tracking-tighter">Bershoe MENU</span>
+                </div>
+                <button onclick="toggleSidebar()" aria-label="Close Sidebar" class="w-10 h-10 bg-black rounded-full border border-solska-border flex items-center justify-center text-gray-400 hover:text-solska-yellow hover:border-solska-yellow transition-all">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+            </div>
+
+            <!-- Search Bar in Sidebar -->
+            <div class="mt-8">
+                <label class="block text-xs font-bold uppercase tracking-widest text-solska-yellow mb-2">Cari Informasi / ID Sepatu</label>
+                <div class="relative">
+                    <input type="text" id="sidebar-search-input" placeholder="Ketik ID (misal: SLK-8821) atau kata kunci..." 
+                        onkeydown="if(event.key === 'Enter') handleSidebarSearch()"
+                        class="w-full bg-black border border-solska-border rounded-xl px-4 py-3 pl-10 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-solska-yellow transition">
+                    <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3.5 text-gray-500"></i>
+                </div>
+                <div class="flex flex-wrap gap-2 mt-3">
+                    <button onclick="quickSearch('SLK-8821')" class="text-[11px] bg-solska-card border border-solska-border px-2.5 py-1 rounded-md text-gray-400 hover:text-solska-yellow hover:border-solska-yellow">#SLK-8821</button>
+                    <button onclick="quickSearch('Deep Clean')" class="text-[11px] bg-solska-card border border-solska-border px-2.5 py-1 rounded-md text-gray-400 hover:text-solska-yellow hover:border-solska-yellow">#DeepClean</button>
+                    <button onclick="quickSearch('Franchise')" class="text-[11px] bg-solska-card border border-solska-border px-2.5 py-1 rounded-md text-gray-400 hover:text-solska-yellow hover:border-solska-yellow">#Franchise</button>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="mt-8 space-y-3">
+                <a href="javascript:void(0)" onclick="navigateTo('view-order'); toggleSidebar();" class="flex items-center justify-between p-3 rounded-xl bg-solska-yellow text-black hover:bg-white transition font-bold text-lg mb-2">
+                    <span><i class="fa-solid fa-bolt text-sm mr-3"></i> Order Penjemputan Premium</span>
+                    <i class="fa-solid fa-chevron-right text-xs"></i>
+                </a>
+                <a href="javascript:void(0)" onclick="navigateTo('view-home'); toggleSidebar();" class="flex items-center justify-between p-3 rounded-xl hover:bg-solska-card hover:text-solska-yellow transition font-bold text-lg">
+                    <span><i class="fa-solid fa-house text-sm mr-3 text-solska-yellow"></i> Beranda</span>
+                    <i class="fa-solid fa-chevron-right text-xs text-gray-600"></i>
+                </a>
+                <a href="javascript:void(0)" onclick="navigateTo('view-home'); scrollToSection('section-lacak'); toggleSidebar();" class="flex items-center justify-between p-3 rounded-xl hover:bg-solska-card hover:text-solska-yellow transition font-bold text-lg">
+                    <span><i class="fa-solid fa-magnifying-glass-location text-sm mr-3 text-solska-yellow"></i> Lacak Orderan </span>
+                    <i class="fa-solid fa-chevron-right text-xs text-gray-600"></i>
+                </a>
+                <a href="javascript:void(0)" onclick="navigateTo('view-home'); scrollToSection('section-pembuktian'); toggleSidebar();" class="flex items-center justify-between p-3 rounded-xl hover:bg-solska-card hover:text-solska-yellow transition font-bold text-lg">
+                    <span><i class="fa-solid fa-camera-retro text-sm mr-3 text-solska-yellow"></i> Hasil Kerja</span>
+                    <i class="fa-solid fa-chevron-right text-xs text-gray-600"></i>
+                </a>
+                <a href="javascript:void(0)" onclick="navigateTo('view-franchise-detail'); toggleSidebar();" class="flex items-center justify-between p-3 rounded-xl bg-solska-card border border-solska-border text-gray-300 hover:text-solska-yellow transition font-bold text-lg">
+                    <span><i class="fa-solid fa-store text-sm mr-3 text-solska-yellow"></i> Franchise</span>
+                    <span class="text-[10px] bg-solska-yellow text-black font-black px-2 py-0.5 rounded uppercase">Premium</span>
+                </a>
+            </nav>
+        </div>
+
+        <div class="mt-8 pt-6 border-t border-solska-border">
+            <div class="bg-black p-4 rounded-2xl border border-solska-border">
+                <p class="text-xs font-black text-solska-yellow uppercase tracking-widest mb-1">Khusus Customer</p>
+                <p class="text-xs text-gray-400">Sepatu Anda Kotor Bingung Besok Ada Acara? Hubungi Concierge kami langsung.</p>
+                <a href="https://wa.me/6282343501911?text=Halo%20Solska,%20saya%20mau%20cuci%20sepatu" target="_blank" class="mt-3 inline-flex items-center gap-2 text-xs font-bold text-black bg-solska-yellow px-4 py-2 rounded-lg hover:bg-white transition">
+                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                    <span>WhatsApp Concierge</span>
+                </a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- MAIN VIEW CONTAINER -->
+    <main id="main-content">
+
+        <!-- VIEW 1: HOME PAGE -->
+        <div id="view-home" class="view-page">
+            <section class="relative w-full h-screen min-h-[650px] flex items-center justify-center overflow-hidden">
+                <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+                    <source src="hero.mp4" type="video/mp4">
+                </video>
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-black/50"></div>
+
+                <div class="relative z-10 text-center px-4 max-w-5xl pt-16">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-solska-yellow/10 border border-solska-yellow/40 backdrop-blur-md mb-6">
+                        <span class="w-2 h-2 rounded-full bg-solska-yellow pulse-yellow"></span>
+                        <span class="text-xs font-extrabold uppercase tracking-widest text-solska-yellow">Eksklusif & Sangat Selektif</span>
+                    </div>
+
+                    <h1 class="text-5xl sm:text-7xl lg:text-8xl font-black text-white uppercase tracking-tight leading-none mb-6">
+                        SEPATU ANDA <br>
+                        <span class="text-solska-yellow">BELUM TENTU</span> LAYAK.
+                    </h1>
+
+                    <p class="text-base sm:text-xl text-gray-300 font-light max-w-2xl mx-auto mb-10 leading-relaxed">
+                        Mau anda  adalah kolektor sepatu, belum tentu bisa cuci sepatu di Bershoe Bersih. Kami cuma nerima yang paham standar kesempurnaan.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <button onclick="navigateTo('view-order')" class="w-full sm:w-auto bg-solska-yellow text-black font-black text-sm uppercase tracking-wider px-8 py-4 rounded-full hover:bg-white transition-all transform hover:scale-105 shadow-xl shadow-yellow-500/10">
+                            <i class="fa-solid fa-bolt mr-2"></i> Order Pickup
+                        </button>
+                        <button onclick="scrollToSection('section-lacak')" class="w-full sm:w-auto bg-black/60 border border-white/30 text-white font-extrabold text-sm uppercase tracking-wider px-8 py-4 rounded-full hover:bg-white hover:text-black hover:border-white transition-all transform hover:scale-105 backdrop-blur-sm">
+                            <i class="fa-solid fa-magnifying-glass mr-2"></i> Cek Status Order
+                        </button>
+                    </div>
+                </div>
+
+                <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-500 text-xs uppercase font-bold tracking-widest">
+                    <span>Scroll Ke Bawah</span>
+                    <i class="fa-solid fa-chevron-down animate-bounce text-solska-yellow"></i>
+                </div>
+            </section>
+
+            <section class="py-12 bg-solska-dark border-y border-solska-border">
+                <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                    <div>
+                        <p class="text-3xl sm:text-5xl font-black text-solska-yellow tracking-tighter">99.4%</p>
+                        <p class="text-xs uppercase font-bold tracking-wider text-gray-400 mt-1">Sepatu Berhasil Kami Bersihkan</p>
+                    </div>
+                    <div>
+                        <p class="text-3xl sm:text-5xl font-black text-white tracking-tighter">1,420+</p>
+                        <p class="text-xs uppercase font-bold tracking-wider text-gray-400 mt-1">Calon Investor Kami Yang Kami Tolak</p>
+                    </div>
+                    <div>
+                        <p class="text-3xl sm:text-5xl font-black text-solska-yellow tracking-tighter">0%</p>
+                        <p class="text-xs uppercase font-bold tracking-wider text-gray-400 mt-1">Toleransi Untuk Hasil Yang "Lumayan"</p>
+                    </div>
+                    <div>
+                        <p class="text-3xl sm:text-5xl font-black text-white tracking-tighter">100%</p>
+                        <p class="text-xs uppercase font-bold tracking-wider text-gray-400 mt-1">Mekanik Berstandar Bershoe</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-lacak" class="py-24 bg-black text-white px-4 relative">
+                <div class="max-w-4xl mx-auto text-center">
+                    <span class="text-xs font-black uppercase tracking-widest text-solska-yellow bg-solska-yellow/10 px-4 py-1.5 rounded-full border border-solska-yellow/20">Fitur Utama</span>
+                    <h2 class="text-4xl sm:text-6xl font-black uppercase tracking-tight mt-4 mb-4">Lacak Status Sepatu Anda</h2>
+                    <p class="text-gray-400 max-w-xl mx-auto font-light text-sm sm:text-base mb-10">
+                        Masukan Kode ID pengerjaan sepatu Anda. Proses akan terlihat transparans
+                    </p>
+
+                    <div class="bg-solska-card p-4 sm:p-6 rounded-3xl border border-solska-border shadow-2xl">
+                        <form onsubmit="handleTrackForm(event)" class="flex flex-col sm:flex-row gap-3">
+                            <div class="relative flex-1">
+                                <input type="text" id="tracking-id-input" placeholder="Masukkan ID (Contoh: SLK-8821)..." required
+                                    class="w-full bg-black border border-solska-border rounded-2xl px-6 py-4 text-white placeholder-gray-600 font-bold text-lg focus:outline-none focus:border-solska-yellow transition">
+                                <i class="fa-solid fa-qrcode absolute right-5 top-5 text-gray-600 text-xl"></i>
+                            </div>
+                            <button type="submit" id="track-btn" class="bg-solska-yellow text-black font-black uppercase tracking-wider px-8 py-4 rounded-2xl hover:bg-white transition flex items-center justify-center gap-2 text-base">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <span>Cek Status</span>
+                            </button>
+                        </form>
+
+                        <div class="flex flex-wrap items-center justify-center gap-3 mt-6 pt-6 border-t border-solska-border">
+                            <span class="text-xs text-gray-500 font-bold uppercase tracking-wider">Coba Sampel ID:</span>
+                            <button onclick="checkSampleID('SLK-8821')" class="text-xs font-mono bg-black text-solska-yellow px-3 py-1.5 rounded-lg border border-solska-yellow/30 hover:bg-solska-yellow hover:text-black transition">
+                                SLK-8821 (Dalam Proses)
+                            </button>
+                            <button onclick="checkSampleID('SLK-9902')" class="text-xs font-mono bg-black text-white px-3 py-1.5 rounded-lg border border-solska-border hover:border-solska-yellow hover:text-solska-yellow transition">
+                                SLK-9902 (Selesai QC)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-pembuktian" class="py-24 bg-solska-dark border-t border-solska-border px-4">
+                <div class="max-w-7xl mx-auto">
+                    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                        <div>
+                            <span class="text-xs font-black uppercase tracking-widest text-solska-yellow">Pembuktian Nyata</span>
+                            <h2 class="text-4xl sm:text-6xl font-black uppercase tracking-tight mt-2 text-white">HASIL PERAWATAN TEAM Bershoe.</h2>
+                        </div>
+                        <p class="text-gray-400 font-light text-sm max-w-md mt-4 md:mt-0">
+                            Nggak usah banyak retorika. Lihat sendiri hasil tangan mekanik Bershoe menyelamatkan sepatu yang tadinya dikira tidak akan pernah bersih.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-black border border-solska-border rounded-3xl overflow-hidden group hover:border-solska-yellow transition duration-500">
+                            <div class="relative h-72 overflow-hidden">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="nikegiannis.png" alt="Sepatu Restorasi Solska" class="lazy-img w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                                <span class="absolute top-4 left-4 bg-black/80 backdrop-blur-md text-solska-yellow text-xs font-bold px-3 py-1 rounded-full border border-solska-yellow/30">Deep Clean & Restoration</span>
+                            </div>
+                            <div class="p-6">
+                                <div class="flex justify-between items-center mb-2">
+                                    <h3 class="font-extrabold text-xl text-white">Nike Giannis Immortality 2</h3>
+                                    <span class="text-xs font-mono text-solska-yellow">SLK-8821</span>
+                                </div>
+                                <p class="text-xs text-gray-400 font-light mb-4">Kasus: Terkena lumpur pekat + oksidasi midsole kuning parah selama 2 tahun.</p>
+                                <div class="flex items-center justify-between text-xs text-gray-500 pt-4 border-t border-solska-border">
+                                    <span>Tingkat Kesulitan: <strong class="text-white">Ekstrem</strong></span>
+                                    <span class="text-solska-yellow font-bold">100% Salved</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-black border border-solska-border rounded-3xl overflow-hidden group hover:border-solska-yellow transition duration-500">
+                            <div class="relative h-72 overflow-hidden">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="botugg.png" alt="Suede Cleaning Solska" class="lazy-img w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                                <span class="absolute top-4 left-4 bg-black/80 backdrop-blur-md text-solska-yellow text-xs font-bold px-3 py-1 rounded-full border border-solska-yellow/30">Specialist Suede Reset</span>
+                            </div>
+                            <div class="p-6">
+                                <div class="flex justify-between items-center mb-2">
+                                    <h3 class="font-extrabold text-xl text-white">bot UGG klasik</h3>
+                                    <span class="text-xs font-mono text-solska-yellow">SLK-9902</span>
+                                </div>
+                                <p class="text-xs text-gray-400 font-light mb-4">Kasus: Suede mati & kaku akibat dicuci pakai deterjen biasa oleh tempat cuci abal-abal.</p>
+                                <div class="flex items-center justify-between text-xs text-gray-500 pt-4 border-t border-solska-border">
+                                    <span>Tingkat Kesulitan: <strong class="text-white">Sangat Tinggi</strong></span>
+                                    <span class="text-solska-yellow font-bold">Suede Smooth</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-black border border-solska-border rounded-3xl overflow-hidden group hover:border-solska-yellow transition duration-500">
+                            <div class="relative h-72 overflow-hidden">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="nikeforce1.png" alt="Luxury Sneakers Solska" class="lazy-img w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                                <span class="absolute top-4 left-4 bg-black/80 backdrop-blur-md text-solska-yellow text-xs font-bold px-3 py-1 rounded-full border border-solska-yellow/30">Unyellowing Dewa</span>
+                            </div>
+                            <div class="p-6">
+                                <div class="flex justify-between items-center mb-2">
+                                    <h3 class="font-extrabold text-xl text-white">Nike Air Force 1</h3>
+                                    <span class="text-xs font-mono text-solska-yellow">SLK-4011</span>
+                                </div>
+                                <p class="text-xs text-gray-400 font-light mb-4">Kasus: Midsole menguning total + kotoran daki membandel di rajutan primeknit.</p>
+                                <div class="flex items-center justify-between text-xs text-gray-500 pt-4 border-t border-solska-border">
+                                    <span>Tingkat Kesulitan: <strong class="text-white">Tinggi</strong></span>
+                                    <span class="text-solska-yellow font-bold">Pure White Again</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-20 bg-solska-yellow text-black px-4 relative overflow-hidden">
+                <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 relative z-10">
+                    <div class="max-w-2xl">
+                        <span class="bg-black text-solska-yellow font-black text-xs uppercase tracking-widest px-4 py-1.5 rounded-full">Kemitraan Terbatas</span>
+                        <h2 class="text-4xl sm:text-6xl font-black uppercase tracking-tight mt-4 mb-4 leading-none">MAU BUKA FRANCHISE Bershoe Bersih?</h2>
+                        <p class="text-lg font-medium opacity-90 leading-relaxed">
+                            Mempunyai modal Rp 1 Miliar aja tidak cukup. Kami mencari investor yang paham visi, berani mengikuti regulasi ketat, dan siap mempertahankan standar kualitas tanpa kompromi.
+                        </p>
+                    </div>
+                    <div class="w-full lg:w-auto">
+                        <button onclick="navigateTo('view-franchise-detail')" class="w-full lg:w-auto bg-black text-white font-black text-sm uppercase tracking-wider px-10 py-5 rounded-full hover:bg-white hover:text-black transition-all transform hover:scale-105 shadow-2xl">
+                            Pelajari Syarat & Cara Pengajuan <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-artikel" class="py-24 bg-black text-white px-4">
+                <div class="max-w-7xl mx-auto">
+                    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                        <div>
+                            <span class="text-xs font-black uppercase tracking-widest text-solska-yellow">Edukasi & Artikel</span>
+                            <h2 class="text-4xl sm:text-6xl font-black uppercase tracking-tight mt-2 text-white">JANGAN JADI ORANG AWAM.</h2>
+                        </div>
+                        <p class="text-gray-400 font-light text-sm max-w-md mt-4 md:mt-0">
+                            Biar anda paham kenapa cuci sepatu itu ilmu pasti, bukan asal sikat pakai sabun cuci piring.
+                        </p>
+                    </div>
+
+                    <div id="article-list-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="col-span-3 text-center text-gray-500 py-10"><i class="fa-solid fa-spinner animate-spin mr-2"></i> Memuat artikel...</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+            
+        <!-- VIEW 2: SEARCH ARTICLE RESULT -->
+        <div id="view-article-search-result" class="view-page hidden pt-28 pb-20 px-4 min-h-screen">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex items-center gap-3 mb-8 text-xs font-bold uppercase tracking-wider text-gray-500">
+                    <button onclick="navigateTo('view-home'); scrollToSection('section-artikel');" class="hover:text-solska-yellow flex items-center gap-1">
+                        <i class="fa-solid fa-arrow-left"></i> Kembali ke Daftar Artikel
+                    </button>
+                </div>
+                
+                <div class="mb-12 border-l-4 border-solska-yellow pl-4">
+                    <p class="text-xs font-black uppercase tracking-widest text-gray-400 mb-1">Hasil Pencarian Untuk:</p>
+                    <h1 id="search-keyword-display" class="text-3xl sm:text-5xl font-black text-white uppercase tracking-tight">"Deterjen"</h1>
+                    <p id="search-count-display" class="text-solska-yellow font-bold mt-2 text-sm">Ditemukan 2 artikel</p>
+                </div>
+                
+                <div id="search-result-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
+            </div>
+        </div>
+
+        <!-- VIEW 3: STATUS RESULT -->
+        <div id="view-status-result" class="view-page hidden pt-28 pb-20 px-4 min-h-screen">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex items-center gap-3 mb-8 text-xs font-bold uppercase tracking-wider text-gray-500">
+                    <button onclick="navigateTo('view-home')" class="hover:text-solska-yellow flex items-center gap-1">
+                        <i class="fa-solid fa-arrow-left"></i> Kembali ke Beranda
+                    </button>
+                    <span>/</span>
+                    <span class="text-solska-yellow">Hasil Pelacakan Status</span>
+                </div>
+
+                <div class="bg-solska-card border border-solska-border rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-6 border-b border-solska-border gap-4">
+                        <div>
+                            <div class="flex items-center gap-3">
+                                <span id="res-badge-status" class="bg-solska-yellow text-black font-black text-xs uppercase px-3 py-1 rounded-md">-</span>
+                                <span id="res-id" class="text-gray-400 font-mono text-sm">ID: -</span>
+                            </div>
+                            <h1 id="res-shoe-name" class="text-2xl sm:text-4xl font-black text-white mt-2">Loading...</h1>
+                        </div>
+                        <div class="text-left sm:text-right">
+                            <p class="text-xs text-gray-500 uppercase font-bold tracking-wider">Pemilik Sepatu</p>
+                            <p id="res-owner" class="text-sm font-bold text-white">-</p>
+                        </div>
+                    </div>
+
+                    <div class="my-10">
+                        <h3 class="text-xs font-black uppercase tracking-widest text-solska-yellow mb-6">Tahapan Pengerjaan Bershoe Standard:</h3>
+                        <div id="res-timeline-container" class="space-y-6"></div>
+                    </div>
+
+                    <div class="bg-black border border-solska-border rounded-2xl p-5 mb-8">
+                        <div class="flex items-center gap-3 mb-2 text-solska-yellow">
+                            <i class="fa-solid fa-user-ninja text-lg"></i>
+                            <h4 class="font-bold text-sm uppercase tracking-wider">Catatan Khusus Mekanik Senior Bershoe:</h4>
+                        </div>
+                        <p id="res-mechanic-note" class="text-xs sm:text-sm text-gray-300 leading-relaxed font-light italic">-</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xs font-black uppercase tracking-widest text-solska-yellow mb-4">Foto Kondisi Pengerjaan Sepatu:</h3>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="bg-black border border-solska-border rounded-2xl p-3">
+                                <p class="text-[11px] font-bold text-gray-400 uppercase mb-2">Kondisi Awal (Inspeksi Masuk):</p>
+                                <img id="res-img-before" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="" alt="Kondisi Awal" class="lazy-img w-full h-48 object-cover rounded-xl">
+                            </div>
+                            <div class="bg-black border border-solska-border rounded-2xl p-3">
+                                <p class="text-[11px] font-bold text-solska-yellow uppercase mb-2">Proses Saat Ini:</p>
+                                <img id="res-img-current" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="" alt="Kondisi Saat Ini" class="lazy-img w-full h-48 object-cover rounded-xl">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-10 pt-6 border-t border-solska-border flex flex-col sm:flex-row gap-4 items-center justify-between">
+                        <p class="text-xs text-gray-500 font-light">Estimasi Selesai: <strong id="res-estimate" class="text-white">-</strong></p>
+                        <div class="flex gap-3 w-full sm:w-auto">
+                            <button onclick="navigateTo('view-home')" class="flex-1 sm:flex-none bg-solska-card border border-solska-border text-white text-xs font-bold uppercase px-6 py-3 rounded-xl hover:border-solska-yellow transition">
+                                Cek ID Lain
+                            </button>
+                            <a id="res-wa-link" href="#" target="_blank" class="flex-1 sm:flex-none bg-solska-yellow text-black text-xs font-black uppercase px-6 py-3 rounded-xl hover:bg-white transition flex items-center justify-center gap-2">
+                                <i class="fa-brands fa-whatsapp text-sm"></i>
+                                <span>Hubungi Admin</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIEW 4: ARTICLE DETAIL -->
+        <div id="view-article-detail" class="view-page hidden pt-28 pb-20 px-4 min-h-screen">
+            <div class="max-w-3xl mx-auto">
+                <div class="flex items-center gap-3 mb-8 text-xs font-bold uppercase tracking-wider text-gray-500">
+                    <button onclick="navigateTo('view-home')" class="hover:text-solska-yellow flex items-center gap-1">
+                        <i class="fa-solid fa-arrow-left"></i> Beranda
+                    </button>
+                    <span>/</span>
+                    <button onclick="navigateTo('view-home'); scrollToSection('section-artikel');" class="hover:text-solska-yellow">Artikel</button>
+                    <span>/</span>
+                    <span class="text-solska-yellow">Detail Artikel</span>
+                </div>
+
+                <header class="mb-8">
+                    <span id="art-tag" class="text-xs font-black uppercase tracking-wider bg-solska-yellow text-black px-3 py-1 rounded">-</span>
+                    <h1 id="art-title" class="text-3xl sm:text-5xl font-black text-white uppercase tracking-tight mt-4 mb-4 leading-tight">-</h1>
+                    <div class="flex items-center gap-4 text-xs text-gray-400 border-b border-solska-border pb-6">
+                        <span>Oleh: <strong id="art-author" class="text-white">-</strong></span>
+                        <span>•</span>
+                        <span id="art-date">-</span>
+                    </div>
+                </header>
+
+                <div class="rounded-3xl overflow-hidden border border-solska-border mb-8">
+                    <img id="art-cover" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="" alt="Cover Artikel" class="lazy-img w-full h-80 object-cover">
+                </div>
+
+                <div id="art-content" class="prose prose-invert max-w-none text-gray-300 font-light text-base leading-relaxed space-y-6"></div>
+
+                <div class="mt-12 pt-8 border-t border-solska-border flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <button onclick="navigateTo('view-home'); scrollToSection('section-artikel');" class="bg-solska-card border border-solska-border text-white text-xs font-bold uppercase px-6 py-3 rounded-full hover:border-solska-yellow transition">
+                        <i class="fa-solid fa-arrow-left mr-2"></i> Kembali ke Artikel Lain
+                    </button>
+                    <div class="flex items-center gap-3">
+                        <span class="text-xs text-gray-500 font-bold uppercase">Bagikan Artikel:</span>
+                        <button onclick="alert('Link artikel berhasil disalin!')" class="w-9 h-9 bg-solska-card border border-solska-border rounded-full flex items-center justify-center text-gray-300 hover:text-solska-yellow transition">
+                            <i class="fa-solid fa-link text-xs"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIEW 5: FRANCHISE DETAIL -->
+        <div id="view-franchise-detail" class="view-page hidden pt-28 pb-20 px-4 min-h-screen">
+            <div class="max-w-5xl mx-auto">
+                <div class="flex items-center gap-3 mb-8 text-xs font-bold uppercase tracking-wider text-gray-500">
+                    <button onclick="navigateTo('view-home')" class="hover:text-solska-yellow flex items-center gap-1">
+                        <i class="fa-solid fa-arrow-left"></i> Beranda
+                    </button>
+                    <span>/</span>
+                    <span class="text-solska-yellow">Pengajuan Kemitraan Franchise</span>
+                </div>
+
+                <div class="bg-gradient-to-r from-solska-card via-black to-solska-card border border-solska-border rounded-3xl p-8 sm:p-12 mb-12 relative overflow-hidden">
+                    <div class="max-w-3xl">
+                        <span class="bg-solska-yellow text-black font-black text-xs uppercase tracking-widest px-4 py-1.5 rounded-full">Bershoe Partner Program 2026</span>
+                        <h1 class="text-4xl sm:text-6xl font-black text-white uppercase tracking-tight mt-4 mb-4 leading-none">
+                            BUKA CABANG <span class="text-solska-yellow">Bershoe Bersih.</span>
+                        </h1>
+                        <p class="text-gray-300 text-sm sm:text-base font-light leading-relaxed">
+                            Kami tidak menjual janji manis cepat kaya. Franchise Bershoe hanya untuk investor berkelas yang siap mematuhi *Standard Operating Procedure* (SOP) paling ketat di industri perawatan sepatu Indonesia.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mb-16">
+                    <h2 class="text-2xl font-black text-white uppercase tracking-tight mb-6">Pilihan Paket Kemitraan Exclusif:</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-solska-card border border-solska-border rounded-3xl p-8 relative flex flex-col justify-between hover:border-solska-yellow transition">
+                            <div>
+                                <span class="text-xs font-mono text-solska-yellow uppercase tracking-widest">Tipe 01</span>
+                                <h3 class="text-3xl font-black text-white uppercase mt-1 mb-2">FLAGSHIP STORE</h3>
+                                <p class="text-xs text-gray-400 font-light mb-6">Untuk kota-kota besar dengan traffic sultan tinggi. Dilengkapi workshop transparan khas Solska.</p>
+                                
+                                <div class="text-3xl font-black text-solska-yellow mb-6">
+                                    Rp 150.000.000 <span class="text-xs text-gray-400 font-normal">/ 1 Tahun</span>
+                                </div>
+
+                                <ul class="space-y-3 text-xs text-gray-300 font-light mb-8">
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-solska-yellow"></i> Lisensi Eksklusif 1 Kota Utama</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-solska-yellow"></i> Set Alat Laboratorium & Deoksidasi UV</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-solska-yellow"></i> Pelatihan 4 Mekanik Senior oleh Master Solska</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-solska-yellow"></i> Integrasi Sistem Tracking Real-time Solska App</li>
+                                </ul>
+                            </div>
+                            <button onclick="openFranchiseForm('Flagship Store')" class="w-full bg-solska-yellow text-black font-black text-xs uppercase tracking-wider py-4 rounded-xl hover:bg-white transition">
+                                Ajukan Seleksi Flagship
+                            </button>
+                        </div>
+
+                        <div class="bg-solska-card border border-solska-border rounded-3xl p-8 relative flex flex-col justify-between hover:border-solska-yellow transition">
+                            <div>
+                                <span class="text-xs font-mono text-solska-yellow uppercase tracking-widest">Tipe 02</span>
+                                <h3 class="text-3xl font-black text-white uppercase mt-1 mb-2">BOUTIQUE OUTLET</h3>
+                                <p class="text-xs text-gray-400 font-light mb-6">Model efisien untuk lokasi ruko mewah atau kawasan komersial premium.</p>
+                                
+                                <div class="text-3xl font-black text-solska-yellow mb-6">
+                                    Rp 95.000.000 <span class="text-xs text-gray-400 font-normal">/ 1 Tahun</span>
+                                </div>
+
+                                <ul class="space-y-3 text-xs text-gray-300 font-light mb-8">
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-solska-yellow"></i> Lisensi Outlet Premium</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-solska-yellow"></i> Booth Counter & Station Kebersihan Ringkas</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-solska-yellow"></i> Pelatihan 2 Mekanik Terverifikasi</li>
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-solska-yellow"></i> Full Dukungan Pemasaran Digital Bershoe</li>
+                                </ul>
+                            </div>
+                            <button onclick="openFranchiseForm('Boutique Outlet')" class="w-full bg-black border border-solska-border text-white hover:text-solska-yellow hover:border-solska-yellow font-black text-xs uppercase tracking-wider py-4 rounded-xl transition">
+                                Ajukan Seleksi Boutique
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="franchise-form-container" class="bg-solska-card border border-solska-border rounded-3xl p-8 sm:p-12">
+                    <h2 class="text-3xl font-black text-white uppercase tracking-tight mb-2">FORMULIR SELEKSI</h2>
+                    <p class="text-xs text-gray-400 mb-8 font-light">Isi data di bawah ini.</p>
+
+                    <form onsubmit="handleFranchiseSubmit(event)" class="space-y-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-solska-yellow mb-2">Nama Lengkap Investor</label>
+                                <input type="text" id="fran-nama" required placeholder="Contoh: Budi Santoso" class="w-full bg-black border border-solska-border rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-solska-yellow">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-solska-yellow mb-2">Nomor WhatsApp Aktif</label>
+                                <input type="tel" id="fran-wa" required placeholder="0812xxxxxxx" class="w-full bg-black border border-solska-border rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-solska-yellow">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-solska-yellow mb-2">Target Kota / Lokasi Outlet</label>
+                                <input type="text" id="fran-kota" required placeholder="Contoh: PIK 2, Jakarta Utara" class="w-full bg-black border border-solska-border rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-solska-yellow">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-solska-yellow mb-2">Kesiapan Dana Likuiditas</label>
+                                <select id="fran-dana" required class="w-full bg-black border border-solska-border rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-solska-yellow">
+                                    <option value="">-- Pilih Rentang Bajet Anda --</option>
+                                    <option value="500m-750m">Rp 50 Juta - Rp 100 Juta</option>
+                                    <option value="750m-1.5b">Rp 100 Juta - Rp 250 Juta</option>
+                                    <option value=">1.5b">> Rp 250 Juta</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-solska-yellow mb-2">Kenapa Kota  Layak Ada
+                Bershoe?</label>
+                            <textarea id="fran-alasan" rows="4" required placeholder="Jelaskan potensi orang kaya di daerah lu dan kenapa Solska harus hadir di sana..." class="w-full bg-black border border-solska-border rounded-xl p-4 text-sm text-white focus:outline-none focus:border-solska-yellow"></textarea>
+                        </div>
+
+                        <div class="pt-4">
+                            <button type="submit" class="w-full bg-solska-yellow text-black font-black text-sm uppercase tracking-wider py-5 rounded-2xl hover:bg-white transition flex justify-center items-center gap-2">
+                                <i class="fa-brands fa-whatsapp text-lg"></i> Lanjutkan Pengajuan
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIEW 6: ORDER LAYANAN PAGE -->
+        <div id="view-order" class="view-page hidden pt-28 pb-20 px-4 min-h-screen">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex items-center gap-3 mb-8 text-xs font-bold uppercase tracking-wider text-gray-500">
+                    <button onclick="navigateTo('view-home')" class="hover:text-solska-yellow flex items-center gap-1">
+                        <i class="fa-solid fa-arrow-left"></i> Beranda
+                    </button>
+                    <span>/</span>
+                    <span class="text-solska-yellow">Order Layanan Premium</span>
+                </div>
+
+                <div id="order-form-container" class="bg-solska-card border border-solska-border rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
+                    <span class="bg-solska-yellow text-black font-black text-xs uppercase tracking-widest px-4 py-1.5 rounded-full mb-4 inline-block">Pickup Service</span>
+                    <h1 class="text-3xl sm:text-5xl font-black text-white uppercase tracking-tight mb-2">RESERVASI <span class="text-solska-yellow">PERAWATAN.</span></h1>
+                    <p class="text-xs text-gray-400 mb-8 font-light">Pastikan data anda valid. Kurir Bershoe akan menjemput sepatu anda sesuai jadwal.</p>
+
+                    <form onsubmit="submitOrder(event)" class="space-y-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-solska-yellow mb-2">Nama Pemilik</label>
+                                <input type="text" id="order-nama" required placeholder="Nama lu..." class="w-full bg-black border border-solska-border rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-solska-yellow">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-solska-yellow mb-2">Nomor WhatsApp</label>
+                                <input type="tel" id="order-wa" required placeholder="0812xxxxxxx" class="w-full bg-black border border-solska-border rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-solska-yellow">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-solska-yellow mb-2">Alamat Penjemputan</label>
+                            <textarea id="order-alamat" rows="3" required placeholder="Alamat lengkap (Sertakan patokan)..." class="w-full bg-black border border-solska-border rounded-xl p-4 text-sm text-white focus:outline-none focus:border-solska-yellow"></textarea>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-solska-yellow mb-2">Pilih Layanan</label>
+                                <select id="order-service" required class="w-full bg-black border border-solska-border rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-solska-yellow">
+                                    <option value="">Memuat layana...</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-solska-yellow mb-2">Atur Jam Pickup</label>
+                                <input type="datetime-local" id="order-waktu" required class="w-full bg-black border border-solska-border rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-solska-yellow [color-scheme:dark]">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-solska-yellow mb-2">Foto Kondisi Sepatu (Min. 2 Foto)</label>
+                            <p class="text-[10px] text-gray-500 mb-2">Unggah foto sepatu untuk dilampirkan ke sistem.</p>
+                            <input type="file" id="order-photos" multiple accept="image/*" onchange="handleImagePreview(event)" class="w-full text-sm text-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-xs file:font-bold file:bg-solska-yellow file:text-black hover:file:bg-white transition cursor-pointer">
+                            
+                            <div id="image-preview-container" class="mt-4 flex flex-wrap gap-3"></div>
+                        </div>
+
+                        <div class="pt-6 border-t border-solska-border">
+                            <button type="submit" id="btn-submit-order" class="w-full bg-solska-yellow text-black font-black text-sm uppercase tracking-wider py-5 rounded-2xl hover:bg-white transition flex justify-center items-center gap-2">
+                                <i class="fa-solid fa-paper-plane text-lg"></i> Buat Orderan
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div id="order-success-container" class="hidden bg-black border border-solska-border rounded-3xl p-10 text-center shadow-2xl mt-8">
+                    <div class="w-20 h-20 bg-solska-yellow rounded-full flex items-center justify-center text-black mx-auto mb-6">
+                        <i class="fa-solid fa-check text-4xl"></i>
+                    </div>
+                    <h2 class="text-3xl font-black text-white uppercase tracking-tight mb-4">RESERVASI BERHASIL</h2>
+                    <p class="text-gray-400 font-light mb-8 max-w-md mx-auto text-lg leading-relaxed">
+                        Pesanan anda sedang kami tinjau, tunggu informasi dari admin whatsapp kami.
+                    </p>
+                    <button onclick="document.getElementById('order-success-container').classList.add('hidden'); document.getElementById('order-form-container').classList.remove('hidden'); navigateTo('view-home');" class="bg-solska-card border border-solska-border text-white font-bold text-xs uppercase tracking-wider px-8 py-3 rounded-full hover:border-solska-yellow transition">
+                        Kembali Ke Beranda
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- PROFESSIONAL FOOTER -->
+    <footer class="bg-black border-t border-solska-border pt-16 pb-12 px-4 text-gray-400 text-xs">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-solska-border">
+            <div class="md:col-span-1">
+                <div class="flex items-center gap-2 mb-4">
+                    <div class="w-7 h-7 bg-solska-yellow rounded-full flex items-center justify-center text-black font-black text-xs">
+                        S
+                    </div>
+                    <span class="font-black text-xl text-white uppercase tracking-tighter">Bershoe Bersih<span class="text-solska-yellow">.</span></span>
+                </div>
+                <p class="font-light leading-relaxed mb-4">
+                    Penyedia perawatan dan restorasi sepatu eksklusif berstandar premium. Kami tidak sekadar membersihkan; kami mengembalikan kehormatan sepatu anda.
+                </p>
+                <div class="flex items-center gap-3">
+                    <a href="https://instagram.com/bershoebersih_" aria-label="Instagram" class="w-8 h-8 bg-solska-card border border-solska-border rounded-full flex items-center justify-center text-gray-300 hover:text-solska-yellow hover:border-solska-yellow transition">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://tiktok.com/@bershoebersih_" aria-label="TikTok" class="w-8 h-8 bg-solska-card border border-solska-border rounded-full flex items-center justify-center text-gray-300 hover:text-solska-yellow hover:border-solska-yellow transition">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="https://youtube.com/solska.id" aria-label="YouTube" class="w-8 h-8 bg-solska-card border border-solska-border rounded-full flex items-center justify-center text-gray-300 hover:text-solska-yellow hover:border-solska-yellow transition">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="font-extrabold text-white uppercase tracking-wider mb-4">Layanan Utama</h4>
+                <ul class="space-y-2.5 font-light">
+                    <li><a href="javascript:void(0)" onclick="navigateTo('view-order')" class="hover:text-solska-yellow transition">Order Pick-up Layanan</a></li>
+                    <li><a href="javascript:void(0)" onclick="navigateTo('view-home'); scrollToSection('section-lacak')" class="hover:text-solska-yellow transition">Lacak Status Pengerjaan</a></li>
+                    <li><a href="javascript:void(0)" onclick="navigateTo('view-home'); scrollToSection('section-pembuktian')" class="hover:text-solska-yellow transition">Restorasi Suede & Leather</a></li>
+                    <li><a href="javascript:void(0)" onclick="navigateTo('view-home'); scrollToSection('section-pembuktian')" class="hover:text-solska-yellow transition">Unyellowing De-Oxidation</a></li>
+                    <li><a href="javascript:void(0)" onclick="navigateTo('view-home'); scrollToSection('section-pembuktian')" class="hover:text-solska-yellow transition">Deep Cleaning Dewa</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-extrabold text-white uppercase tracking-wider mb-4">Kemitraan & Bisnis</h4>
+                <ul class="space-y-2.5 font-light">
+                    <li><a href="javascript:void(0)" onclick="navigateTo('view-franchise-detail')" class="hover:text-solska-yellow transition">Syarat Franchise Flagship</a></li>
+                    <li><a href="javascript:void(0)" onclick="navigateTo('view-franchise-detail')" class="hover:text-solska-yellow transition">Syarat Franchise Boutique</a></li>
+                    <li><a href="javascript:void(0)" onclick="navigateTo('view-home'); scrollToSection('section-artikel')" class="hover:text-solska-yellow transition">Artikel Bisnis Bershoe Bersih</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-extrabold text-white uppercase tracking-wider mb-4">Bershoe Bersih Central Lab</h4>
+                <p class="font-light leading-relaxed mb-3">
+                    Bogor, Parung Panjang, Sentral land.
+                </p>
+                <p class="font-mono text-solska-yellow font-bold">bershobersih@gmail.com</p>
+                <p class="font-mono text-gray-400 mt-1">+62 823 4350 1911 (Busines)</p>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 font-light text-gray-500">
+            <p>&copy; 2026 PT BARBERMAN.ID. Hak Cipta Dilindungi Undang-Undang.</p>
+            <p class="text-[11px]"> Kualitas Tanpa Kompromi.</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyDdSg1N0RWimvqduIkuTNoXzY1uW8-qPwg",
+    authDomain: "pinup-f0c6d.firebaseapp.com",
+    projectId: "pinup-f0c6d",
+    storageBucket: "pinup-f0c6d.firebasestorage.app",
+    messagingSenderId: "975740522083",
+    appId: "1:975740522083:web:2c2e80b418a6d2255db256",
+    measurementId: "G-T1Z5WKYD0G"
+};
+
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        const auth = firebase.auth();
+
+        let articleDatabase = {};
+
+        async function initAuth() {
+            const cachedUid = localStorage.getItem('solska_uid');
+            if (cachedUid) {
+                console.log("Sesi Ditemukan (LocalStorage UID):", cachedUid);
+            }
+            
+            auth.onAuthStateChanged(async (user) => {
+                if (user) {
+                    localStorage.setItem('solska_uid', user.uid);
+                } else {
+                    try {
+                        const userCredential = await auth.signInAnonymously();
+                        localStorage.setItem('solska_uid', userCredential.user.uid);
+                    } catch (error) {
+                        console.error("Auth error:", error);
+                    }
+                }
+            });
+        }
+
+        function initLazyLoad() {
+            const lazyImages = document.querySelectorAll('.lazy-img');
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        const dataSrc = img.getAttribute('data-src');
+                        if (dataSrc) {
+                            img.src = dataSrc;
+                            img.onload = () => {
+                                img.classList.add('loaded');
+                                img.removeAttribute('data-src');
+                            };
+                            observer.unobserve(img);
+                        }
+                    }
+                });
+            });
+            lazyImages.forEach(img => imageObserver.observe(img));
+        }
+
+        function navigateTo(pageId, pushState = true) {
+            document.querySelectorAll('.view-page').forEach(page => {
+                page.classList.add('hidden');
+            });
+            const targetPage = document.getElementById(pageId);
+            if (targetPage) {
+                targetPage.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+            
+            if (pushState) {
+                history.pushState({ pageId: pageId }, "", `#${pageId}`);
+            }
+
+            setTimeout(initLazyLoad, 100);
+            
+            const dropdown = document.getElementById('autocomplete-dropdown');
+            if(dropdown) dropdown.classList.add('hidden');
+        }
+
+        window.addEventListener('popstate', (e) => {
+            if (e.state && e.state.pageId) {
+                navigateTo(e.state.pageId, false);
+            } else {
+                navigateTo('view-home', false);
+            }
+        });
+
+        window.addEventListener('DOMContentLoaded', () => {
+            if(!history.state) {
+                history.replaceState({ pageId: 'view-home' }, "", "#view-home");
+            }
+        });
+
+        function scrollToSection(sectionId) {
+            const currentHome = document.getElementById('view-home');
+            if (currentHome.classList.contains('hidden')) {
+                navigateTo('view-home');
+                setTimeout(() => {
+                    const sec = document.getElementById(sectionId);
+                    if (sec) sec.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            } else {
+                const sec = document.getElementById(sectionId);
+                if (sec) sec.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function toggleSidebar() {
+            const drawer = document.getElementById('sidebar-drawer');
+            const backdrop = document.getElementById('sidebar-backdrop');
+            const isOpen = !drawer.classList.contains('translate-x-full');
+            
+            if (isOpen) {
+                drawer.classList.add('translate-x-full');
+                backdrop.classList.add('opacity-0', 'pointer-events-none');
+            } else {
+                drawer.classList.remove('translate-x-full');
+                backdrop.classList.remove('opacity-0', 'pointer-events-none');
+            }
+        }
+
+        function handleSidebarSearch() {
+            const query = document.getElementById('sidebar-search-input').value.trim().toUpperCase();
+            if (!query) return;
+
+            toggleSidebar();
+
+            if (query.startsWith('SLK-')) {
+                renderTrackingResultFromFirestore(query);
+            } else if (query.includes('FRANCHISE')) {
+                navigateTo('view-franchise-detail');
+            } else {
+                submitArticleSearch(query);
+            }
+        }
+
+        function quickSearch(tag) {
+            document.getElementById('sidebar-search-input').value = tag;
+            handleSidebarSearch();
+        }
+
+        function submitArticleSearch(queryStr = null) {
+            const query = (queryStr || document.getElementById('article-search-input').value).toLowerCase().trim();
+            if(!query) return;
+
+            const dropdown = document.getElementById('autocomplete-dropdown');
+            if(dropdown) dropdown.classList.add('hidden');
+            
+            const matches = Object.values(articleDatabase).filter(art => 
+                (art.title && art.title.toLowerCase().includes(query)) || 
+                (art.desc && art.desc.toLowerCase().includes(query)) ||
+                (art.tag && art.tag.toLowerCase().includes(query))
+            );
+
+            document.getElementById('search-keyword-display').innerText = `"${query}"`;
+            document.getElementById('search-count-display').innerText = `Ditemukan ${matches.length} artikel`;
+            
+            const resultContainer = document.getElementById('search-result-grid');
+            if (matches.length > 0) {
+                resultContainer.innerHTML = matches.map(art => createArticleCardHTML(art.id, art)).join('');
+            } else {
+                resultContainer.innerHTML = `<div class="col-span-full text-center py-12 text-gray-500">Artikel tidak ditemukan, coba kata kunci lain.</div>`;
+            }
+
+            navigateTo('view-article-search-result');
+        }
+
+        function createArticleCardHTML(artId, art) {
+            return `
+                <article class="bg-solska-card border border-solska-border rounded-3xl overflow-hidden hover:border-solska-yellow transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="${art.cover}" alt="${art.title}" class="lazy-img w-full h-52 object-cover">
+                        <div class="p-6">
+                            <span class="text-[10px] font-black uppercase tracking-wider bg-solska-yellow text-black px-2.5 py-1 rounded">${art.tag}</span>
+                            <h3 class="font-extrabold text-xl text-white mt-3 mb-2 hover:text-solska-yellow transition cursor-pointer line-clamp-2" onclick="openArticleDetail('${artId}')">
+                                ${art.title}
+                            </h3>
+                            <p class="text-gray-400 text-xs font-light leading-relaxed line-clamp-3">
+                                ${art.desc}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0">
+                        <button onclick="openArticleDetail('${artId}')" class="text-xs font-bold text-solska-yellow hover:text-white transition flex items-center gap-2">
+                            <span>Baca Selengkapnya</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+            `;
+        }
+
+        async function fetchArticlesFromFirestore() {
+            try {
+                const snapshot = await db.collection('articles').get();
+                let htmlList = '';
+                
+                snapshot.forEach(doc => {
+                    const data = doc.data();
+                    data.id = doc.id; 
+                    articleDatabase[doc.id] = data;
+                    htmlList += createArticleCardHTML(doc.id, data);
+                });
+
+                const listContainer = document.getElementById('article-list-grid');
+                if (htmlList === '') {
+                    listContainer.innerHTML = '<div class="col-span-3 text-center text-gray-500 py-10">Belum ada artikel.</div>';
+                } else {
+                    listContainer.innerHTML = htmlList;
+                    initLazyLoad();
+                }
+            } catch (error) {
+                console.error("Gagal memuat artikel: ", error);
+                document.getElementById('article-list-grid').innerHTML = '<div class="col-span-3 text-center text-red-500 py-10">Gagal terhubung ke database Solska.</div>';
+            }
+        }
+
+        function openArticleDetail(id) {
+            const art = articleDatabase[id];
+            if(!art) return;
+            
+            document.getElementById('art-tag').innerText = art.tag || '-';
+            document.getElementById('art-title').innerText = art.title || '-';
+            document.getElementById('art-author').innerText = art.author || '-';
+            document.getElementById('art-date').innerText = art.date || '-';
+            
+            const coverImg = document.getElementById('art-cover');
+            coverImg.classList.remove('loaded');
+            coverImg.src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
+            coverImg.setAttribute('data-src', art.cover);
+            
+            document.getElementById('art-content').innerHTML = art.content || '';
+
+            navigateTo('view-article-detail');
+        }
+
+        async function renderTrackingResultFromFirestore(idInput) {
+            const btn = document.getElementById('track-btn');
+            const originalHTML = btn ? btn.innerHTML : '';
+            if(btn) {
+                btn.innerHTML = '<i class="fa-solid fa-spinner animate-spin"></i><span>Melacak...</span>';
+                btn.disabled = true;
+            }
+
+            try {
+                const docRef = db.collection('tracking').doc(idInput);
+                const doc = await docRef.get();
+
+                if (doc.exists) {
+                    renderTrackingResult(doc.id, doc.data());
+                } else {
+                    alert(`ID "${idInput}" tidak ditemukan dalam database VVIP kami.`);
+                }
+            } catch (error) {
+                console.error("Tracking Error:", error);
+                alert("Terjadi kesalahan saat memeriksa database.");
+            } finally {
+                if(btn) {
+                    btn.innerHTML = originalHTML || '<i class="fa-solid fa-magnifying-glass"></i><span>Cek Status</span>';
+                    btn.disabled = false;
+                }
+            }
+        }
+
+        function handleTrackForm(e) {
+            e.preventDefault();
+            const idInput = document.getElementById('tracking-id-input').value.trim().toUpperCase();
+            if (!idInput) return;
+            renderTrackingResultFromFirestore(idInput);
+        }
+
+        function checkSampleID(sampleId) {
+            renderTrackingResultFromFirestore(sampleId);
+        }
+
+        function renderTrackingResult(docId, data) {
+            document.getElementById('res-id').innerText = `ID: ${docId}`;
+            document.getElementById('res-shoe-name').innerText = data.shoe || '-';
+            document.getElementById('res-owner').innerText = data.owner || '-';
+            
+            const badge = document.getElementById('res-badge-status');
+            badge.innerText = data.status || 'UNKNOWN';
+            badge.className = `${data.badgeBg || 'bg-gray-500 text-white'} font-black text-xs uppercase px-3 py-1 rounded-md`;
+            
+            document.getElementById('res-mechanic-note').innerText = data.mechanicNote || '-';
+            
+            const imgBefore = document.getElementById('res-img-before');
+            const imgCurrent = document.getElementById('res-img-current');
+            
+            imgBefore.classList.remove('loaded');
+            imgBefore.src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
+            imgBefore.setAttribute('data-src', data.imgBefore || '');
+            
+            imgCurrent.classList.remove('loaded');
+            imgCurrent.src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
+            imgCurrent.setAttribute('data-src', data.imgCurrent || '');
+            
+            document.getElementById('res-estimate').innerText = data.estimate || '-';
+            
+            const waLink = document.getElementById('res-wa-link');
+            if(waLink) waLink.href = `https://wa.me/6280009000?text=Halo%20Solska,%20mau%20tanya%20proses%20ID%20${docId}`;
+
+            let stepsHtml = '';
+            if(data.steps && data.steps.length > 0) {
+                data.steps.forEach(step => {
+                    let iconClass = 'fa-circle-dot text-gray-600';
+                    let textClass = 'text-gray-500 font-light';
+                    let lineClass = 'border-gray-800';
+
+                    if (step.done) {
+                        iconClass = 'fa-circle-check text-solska-yellow';
+                        textClass = 'text-white font-bold';
+                        lineClass = 'border-solska-yellow';
+                    } else if (step.active) {
+                        iconClass = 'fa-spinner animate-spin text-solska-yellow';
+                        textClass = 'text-solska-yellow font-bold';
+                    }
+
+                    stepsHtml += `
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1"><i class="fa-solid ${iconClass} text-lg"></i></div>
+                            <div class="flex-1 pb-4 border-b ${lineClass}">
+                                <p class="text-sm ${textClass}">${step.title}</p>
+                                <p class="text-[11px] text-gray-500 font-mono mt-0.5">${step.time}</p>
+                            </div>
+                        </div>
+                    `;
+                });
+            } else {
+                stepsHtml = '<p class="text-gray-500 text-sm">Tidak ada riwayat pengerjaan.</p>';
+            }
+
+            document.getElementById('res-timeline-container').innerHTML = stepsHtml;
+            navigateTo('view-status-result');
+        }
+
+        function openFranchiseForm(packageType) {
+            navigateTo('view-franchise-detail');
+            setTimeout(() => {
+                document.getElementById('franchise-form-container').scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+        }
+
+        function handleFranchiseSubmit(e) {
+            e.preventDefault();
+            
+            const nama = document.getElementById('fran-nama').value;
+            const wa = document.getElementById('fran-wa').value;
+            const kota = document.getElementById('fran-kota').value;
+            const dana = document.getElementById('fran-dana').value;
+            const alasan = document.getElementById('fran-alasan').value;
+
+            const waText = `Halo Direksi Solska, saya berminat mengajukan kemitraan Franchise.\n\n`
+                       + `*Data Investor:*\n`
+                       + `- Nama: ${nama}\n`
+                       + `- No WA: ${wa}\n`
+                       + `- Lokasi Outlet: ${kota}\n`
+                       + `- Kesiapan Dana: ${dana}\n\n`
+                       + `*Alasan Kelayakan:*\n${alasan}\n\n`
+                       + `Mohon arahannya untuk proses seleksi lebih lanjut.`;
+
+            const waUrl = `https://wa.me/6280009000?text=${encodeURIComponent(waText)}`;
+            
+            window.open(waUrl, '_blank');
+            e.target.reset();
+        }
+
+        async function fetchServicesFromFirestore() {
+            try {
+                const snapshot = await db.collection('services').get();
+                const select = document.getElementById('order-service');
+                
+                if (snapshot.empty) {
+                    select.innerHTML = `
+                        <option value="">-- Pilih Jenis Perawatan --</option>
+                        <option value="Deep Clean Premium">Deep Clean Premium (Rp 150.000)</option>
+                        <option value="Unyellowing De-Oxidation">Unyellowing De-Oxidation (Rp 250.000)</option>
+                        <option value="Suede Leather Reset">Suede & Leather Reset (Rp 300.000)</option>
+                        <option value="Repaint / Custom">Repaint / Custom (Consultation Needed)</option>
+                    `;
+                } else {
+                    let options = '<option value="">-- Pilih Jenis Perawatan --</option>';
+                    snapshot.forEach(doc => {
+                        options += `<option value="${doc.data().name}">${doc.data().name}</option>`;
+                    });
+                    select.innerHTML = options;
+                }
+            } catch(e) {
+                console.error('Gagal memuat layanan', e);
+                document.getElementById('order-service').innerHTML = `
+                    <option value="">-- Gagal memuat. Pilih Manual --</option>
+                    <option value="Deep Clean Premium">Deep Clean Premium</option>
+                    <option value="Unyellowing">Unyellowing</option>
+                `;
+            }
+        }
+
+        let uploadedOrderFiles = [];
+
+        function handleImagePreview(event) {
+            const files = Array.from(event.target.files);
+            uploadedOrderFiles = files;
+            const container = document.getElementById('image-preview-container');
+            container.innerHTML = '';
+            
+            files.forEach((file) => {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    container.innerHTML += `
+                        <div class="relative w-20 h-20 sm:w-24 sm:h-24 rounded-lg overflow-hidden border border-solska-border">
+                            <img src="${e.target.result}" class="w-full h-full object-cover" />
+                        </div>
+                    `;
+                };
+                reader.readAsDataURL(file);
+            });
+        }
+
+        // Fungsi Upload menggunakan Cloudinary API
+        async function uploadFilesToCloud(files) {
+            let uploadedUrls = [];
+            const cloudName = "dl6iyeqrc";
+            const uploadPreset = "mattgram";
+
+            for (let file of files) {
+                const formData = new FormData();
+                formData.append('file', file);
+                formData.append('upload_preset', uploadPreset);
+
+                try {
+                    const response = await fetch(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`, {
+                        method: 'POST',
+                        body: formData
+                    });
+                    const result = await response.json();
+                    if (result && result.secure_url) {
+                        uploadedUrls.push(result.secure_url);
+                    }
+                } catch (err) {
+                    console.error("Gagal mengunggah gambar ke Cloudinary:", err);
+                }
+            }
+            return uploadedUrls;
+        }
+
+        async function submitOrder(e) {
+            e.preventDefault();
+            
+            if (uploadedOrderFiles.length < 2) {
+                alert('Peringatan: Lu harus mengunggah minimal 2 foto sepatu lu dari sisi yang berbeda!');
+                return;
+            }
+
+            const btn = document.getElementById('btn-submit-order');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fa-solid fa-spinner animate-spin text-lg"></i> Membuat orderan...';
+            btn.disabled = true;
+
+            try {
+                // 1. Unggah file gambar menggunakan Cloudinary API
+                const uploadedUrls = await uploadFilesToCloud(uploadedOrderFiles);
+
+                if (uploadedUrls.length === 0) {
+                    throw new Error("Gagal mengunggah foto ke Cloudinary. Periksa konfigurasi preset atau jaringan Anda.");
+                }
+
+                // 2. Simpan order ke Firestore beserta URL gambar asli dari Cloudinary
+                await db.collection('orders').add({
+                    nama: document.getElementById('order-nama').value,
+                    whatsapp: document.getElementById('order-wa').value,
+                    alamat: document.getElementById('order-alamat').value,
+                    layanan: document.getElementById('order-service').value,
+                    waktuPickup: document.getElementById('order-waktu').value,
+                    foto: uploadedUrls,
+                    status: 'Tinjauan Admin',
+                    createdAt: firebase.firestore.FieldValue.serverTimestamp()
+                });
+
+                // 3. Tampilkan konfirmasi sukses
+                document.getElementById('order-form-container').classList.add('hidden');
+                document.getElementById('order-success-container').classList.remove('hidden');
+
+                e.target.reset();
+                uploadedOrderFiles = [];
+                document.getElementById('image-preview-container').innerHTML = '';
+
+            } catch (error) {
+                console.error(error);
+                alert('Sistem gagal memproses orderan: ' + error.message);
+            } finally {
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+            }
+        }
+
+        window.onload = () => {
+            initAuth();
+            fetchArticlesFromFirestore();
+            fetchServicesFromFirestore();
+            initLazyLoad(); 
+        };
+    </script>
+</body>
+</html>
